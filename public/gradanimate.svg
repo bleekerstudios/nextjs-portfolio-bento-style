@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="animate_" width="1200" height="694" viewBox="0 0 1200 694" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<g clip-path="url(#clip0_16_275)">
+<mask id="mask0_16_275" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="694">
+<path d="M1200 0H0V693.571H1200V0Z" fill="white" stroke-dasharray="0,0,0,0,0,3787.14208984375"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="5.612875556648556s" values="0,0,0,0,0,3787.14208984375; 0,0,0,2892.8528486288187,894.2892412149312,0; 0,0,447.1446206074656,3339.9974692362844,0,0; 0,1893.571044921875,0,1893.571044921875,0,0" keyTimes="0; 0.5; 0.6180691429050432; 1" begin="2.2267086834366645s"></animate></path>
+</mask>
+<g mask="url(#mask0_16_275)">
+<path d="M1200 0H0V693.571H1200V0Z" fill="#FFF6F1" stroke-dasharray="0,0,0,0,0,3787.14208984375"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="5.044268800543026s" values="0,0,0,0,0,3787.14208984375; 0,0,0,2762.707394616415,1024.4346952273347,0; 0,0,512.2173476136674,3274.9247422300828,0,0; 0,1893.571044921875,0,1893.571044921875,0,0" keyTimes="0; 0.5; 0.6352516846376896; 1" begin="2.343217616771829s"></animate></path>
+<g style="mix-blend-mode:exclusion" filter="url(#filter0_f_16_275)">
+<path d="M307.619 639.286C187.826 639.286 90.7144 542.067 90.7144 422.143C90.7144 302.218 187.826 205 307.619 205C427.412 205 524.524 302.218 524.524 422.143C524.524 542.067 621.635 639.286 741.429 639.286C861.222 639.286 958.333 542.067 958.333 422.143C958.333 302.218 861.222 205 741.429 205C621.635 205 524.524 107.782 524.524 -12.1429C524.524 -132.068 621.635 -229.286 741.429 -229.286C861.222 -229.286 958.333 -132.068 958.333 -12.1429C958.333 107.782 1055.45 205 1175.24 205" stroke="url(#paint0_radial_16_275)" stroke-width="214.286" stroke-dasharray="0,0,0,0,0,3409.48486328125"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="5.045413150129283s" values="0,0,0,0,0,3409.48486328125; 0,0,0,2552.11294598266,857.3719172985896,0; 0,0,428.6859586492948,2980.7989046319553,0,0; 0,1704.742431640625,0,1704.742431640625,0,0" keyTimes="0; 0.5; 0.6257333514707943; 1" begin="0.6209214202425325s"></animate></path>
+<path d="M307.619 639.286C187.826 639.286 90.7144 542.067 90.7144 422.143C90.7144 302.218 187.826 205 307.619 205C427.412 205 524.524 302.218 524.524 422.143C524.524 542.067 621.635 639.286 741.429 639.286C861.222 639.286 958.333 542.067 958.333 422.143C958.333 302.218 861.222 205 741.429 205C621.635 205 524.524 107.782 524.524 -12.1429C524.524 -132.068 621.635 -229.286 741.429 -229.286C861.222 -229.286 958.333 -132.068 958.333 -12.1429C958.333 107.782 1055.45 205 1175.24 205" stroke="url(#paint1_radial_16_275)" stroke-width="214.286" stroke-dasharray="0,0,0,0,0,3409.48486328125"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="6.075698265380117s" values="0,0,0,0,0,3409.48486328125; 0,0,0,2574.099872569022,835.3849907122278,0; 0,0,417.6924953561139,2991.792367925136,0,0; 0,1704.742431640625,0,1704.742431640625,0,0" keyTimes="0; 0.5; 0.6225089748467548; 1" begin="1.8389064776376454s"></animate></path>
+</g>
+<g style="mix-blend-mode:exclusion" filter="url(#filter1_f_16_275)">
+<path d="M740 344.286C740 462.632 644.061 558.571 525.714 558.571C407.368 558.571 311.429 462.632 311.429 344.286C311.429 225.939 407.368 130 525.714 130C644.061 130 740 225.939 740 344.286Z" stroke="url(#paint2_linear_16_275)" stroke-width="214.286" stroke-dasharray="0,0,0,0,0,1346.584716796875"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="5.501670793012044s" values="0,0,0,0,0,1346.584716796875; 0,0,0,1008.2126657165243,338.3720510803508,0; 0,0,169.1860255401754,1177.3986912566997,0,0; 0,673.2923583984375,0,673.2923583984375,0,0" keyTimes="0; 0.5; 0.6256408330124366; 1" begin="1.4348719319194185s"></animate></path>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_16_275" x="-230.715" y="-550.715" width="1620.24" height="1511.43" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+<feGaussianBlur stdDeviation="107.143" result="effect1_foregroundBlur_16_275"></feGaussianBlur>
+</filter>
+<filter id="filter1_f_16_275" x="-10" y="-191.429" width="1071.43" height="1071.43" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+<feGaussianBlur stdDeviation="107.143" result="effect1_foregroundBlur_16_275"></feGaussianBlur>
+</filter>
+<radialGradient id="paint0_radial_16_275" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(672.5 511.071) rotate(-110.109) scale(788.421 984.446)">
+<stop stop-color="#33FF00"></stop>
+<stop offset="1" stop-opacity="0"></stop>
+</radialGradient>
+<radialGradient id="paint1_radial_16_275" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(672.5 511.071) rotate(-110.109) scale(788.421 984.446)">
+<stop stop-color="#00F0FF"></stop>
+<stop offset="1" stop-opacity="0"></stop>
+</radialGradient>
+<linearGradient id="paint2_linear_16_275" x1="432.143" y1="202.143" x2="697.5" y2="758.928" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF1DC0"></stop>
+<stop offset="1" stop-color="#FF1DC0" stop-opacity="0"></stop>
+</linearGradient>
+<clipPath id="clip0_16_275">
+<rect width="1200" height="694" fill="white" stroke-dasharray="0,0,0,0,0,3788"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="5.410671522211462s" values="0,0,0,0,0,3788; 0,0,0,2806.6494186286172,981.3505813713826,0; 0,0,490.6752906856913,3297.3247093143086,0,0; 0,1894,0,1894,0,0" keyTimes="0; 0.5; 0.6295341316488098; 1" begin="2.1457324765921224s"></animate></rect>
+</clipPath>
+</defs>
+<setting>{"type":"shift","speed":8,"random":0.8,"shift":0.5,"size":0.8,"rupture":29}</setting></svg>

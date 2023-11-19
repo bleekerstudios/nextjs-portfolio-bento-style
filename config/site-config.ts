@@ -50,7 +50,7 @@ const GridItems: GridItemInterface[] = [
     layout: "2x4",
     type: "equipment",
     title: "How We Work",
-    image: "/pattern_06.svg",
+    image: "/finalpink.svg",
     equipments: [
       {
         title: "Phase 1: Evaluate Current State",
@@ -221,7 +221,7 @@ const GridItems: GridItemInterface[] = [
     layout: "2x4",
     type: "equipment",
     title: "About",
-    image: "/fetti.svg",
+    image: "/vortex.svg",
     equipments: [
       {
         title: "We simplify technology implementations. Our ethos is straightforward: Learn, build, and deploy. We streamline the journey from concept to realization, making collaboration effortless. Excited for the opportunity to partner with you.",
