@@ -121,8 +121,8 @@ const GridItems: GridItemInterface[] = [
     icon: "",
     username: "We solve your problems, improve operational efficiency, and optimize resource utilization.",
     buttonTitle: "Get Started  ↗",
-    buttonLink: "",
-    buttonSecondaryText: "https://www.bleeckerstudios-docs.com/",
+    buttonLink: "https://www.bleeckerstudios-docs.com/",
+    buttonSecondaryText: "",
     color: "#62475D",
     description:
       "Looking Forward To Connecting.",
@@ -225,7 +225,7 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Connecting Your Software Ecosystem",
-        link: "https://www.amazon.com/Sony-Full-frame-Mirrorless-Interchangeable-Lens-ILCE7M3K/dp/B07B45D8WV?&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=f91877e8350da1e43b161adac6e9a6d7&camp=1789&creative=9325",
+        link: "",
       },
       {
         title: "Audting Your Tech Stack",
