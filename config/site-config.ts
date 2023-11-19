@@ -220,25 +220,14 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "How To Videos",
+    title: "About",
     image: "/fetti.svg",
     equipments: [
       {
-        title: "Connecting Your Software Ecosystem  ↗",
+        title: "We simplify technology implementations. Our ethos is straightforward: Learn, build, and deploy. We streamline the journey from concept to realization, making collaboration effortless. Excited for the opportunity to partner with you.",
         link: "",
       },
-      {
-        title: "Audting Your Tech Stack  ↗",
-        link: "/",
-      },
-      {
-        title: "Website Analytics ↗",
-        link: "/",
-      },
-      {
-        title: "Automating Email Responses  ↗",
-        link: "/",
-      },
+      
       
       
     ],
