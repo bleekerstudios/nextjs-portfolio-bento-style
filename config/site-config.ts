@@ -41,7 +41,7 @@ const GridItems: GridItemInterface[] = [
       "Our Goal: Make Technology Work For You.",
     color: "#424339",
     buttonTitle: "What We Do",
-    buttonLink: "https://www.youtube.com/@makrdev",
+    buttonLink: "",
     buttonSecondaryText: "",
   },
 
@@ -54,19 +54,19 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Phase 1: Evaluate Current State",
-        link: "https://www.amazon.com/Sony-Full-frame-Mirrorless-Interchangeable-Lens-ILCE7M3K/dp/B07B45D8WV?&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=f91877e8350da1e43b161adac6e9a6d7&camp=1789&creative=9325",
+        link: "",
       },
       {
         title: "Phase 2: Solution Design",
-        link: "https://www.amazon.com/s?k=tamron+24-75+f2.8+sony+e+mount&sprefix=tamron+24-75%252Caps%252C215&ref=nb_sb_ss_ts-doa-p_1_12&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=7f90fb483df302e8131afea2f4cd89bb&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Phase 3: Develop + Integrate",
-        link: "https://www.amazon.com/s?k=thronmax+mdrill+one+pro&sprefix=thronmax%252Caps%252C213&ref=nb_sb_ss_ts-doa-p_7_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=ffb6dc2e55c74508300d2c5eac250e1e&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Phase 4: Deploy & Educate",
-        link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
+        link: "/",
       },
     ],
   },
@@ -78,11 +78,11 @@ const GridItems: GridItemInterface[] = [
     icon: "",
     username: "We can modify one, or many components of your technology ecosystem.",
     buttonTitle: "Our Approach",
-    buttonLink: "https://twitter.com/makrdev",
+    buttonLink: "/",
     buttonSecondaryText: "",
     color: "#8391A5",
     description:
-      "We solve your problems, improve operational efficiency, and optimize resource utilization.",
+      "",
   },
   
   {
@@ -93,23 +93,23 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Application Customization & Integrations",
-        link: "https://www.amazon.com/Sony-Full-frame-Mirrorless-Interchangeable-Lens-ILCE7M3K/dp/B07B45D8WV?&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=f91877e8350da1e43b161adac6e9a6d7&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Promotional Services",
-        link: "https://www.amazon.com/s?k=tamron+24-75+f2.8+sony+e+mount&sprefix=tamron+24-75%252Caps%252C215&ref=nb_sb_ss_ts-doa-p_1_12&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=7f90fb483df302e8131afea2f4cd89bb&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Software Development",
-        link: "https://www.amazon.com/s?k=thronmax+mdrill+one+pro&sprefix=thronmax%252Caps%252C213&ref=nb_sb_ss_ts-doa-p_7_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=ffb6dc2e55c74508300d2c5eac250e1e&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Business Development",
-        link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Professional Services & Technical Support",
-        link: "https://www.amazon.com/Godox-Umbrella-Reflector-Honeycomb-Speedlight/dp/B07H91VH4M/ref=sr_1_19?crid=3UE8NBEUUB1PI&keywords=godox+sl60+softbox&qid=1687880313&sprefix=godox+sl60+%252Caps%252C207&sr=8-19&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=7cb2f6734c70d44a3491266b50eac29c&camp=1789&creative=9325",
+        link: "/",
       },
       
     ],
@@ -120,12 +120,12 @@ const GridItems: GridItemInterface[] = [
     title: "Click Here To Get Started",
     icon: "",
     username: "We solve your problems, improve operational efficiency, and optimize resource utilization.",
-    buttonTitle: "Get Started",
-    buttonLink: "https://rfy7zs3e858.typeform.com/to/N71szFJx",
-    buttonSecondaryText: "",
+    buttonTitle: "Get Started  ↗",
+    buttonLink: "",
+    buttonSecondaryText: "https://www.bleeckerstudios-docs.com/",
     color: "#62475D",
     description:
-      "Looking Forward To Connecting!",
+      "Looking Forward To Connecting.",
   },
   {
     layout: "2x4",
@@ -135,20 +135,17 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "40% Reduction in Annual Technology Costs",
-        link: "",
+        link: "/",
       },
       {
-        title: "245 Hours Saved A Week",
-        link: "https://www.amazon.com/s?k=tamron+24-75+f2.8+sony+e+mount&sprefix=tamron+24-75%252Caps%252C215&ref=nb_sb_ss_ts-doa-p_1_12&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=7f90fb483df302e8131afea2f4cd89bb&camp=1789&creative=9325",
+        title: "245 Hours Saved A Week Per Organization",
+        link: "/",
       },
       {
-        title: "20% Reduction in Touchpointd with End Clients",
-        link: "https://www.amazon.com/s?k=thronmax+mdrill+one+pro&sprefix=thronmax%252Caps%252C213&ref=nb_sb_ss_ts-doa-p_7_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=ffb6dc2e55c74508300d2c5eac250e1e&camp=1789&creative=9325",
+        title: "20% Reduction in Touchpoints with End Clients",
+        link: "/",
       },
-      {
-        title: "$500,320.00 Average Contract Size when utlized during Sales Cycle",
-        link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
-      },
+      
     ],
   },
   
@@ -162,7 +159,7 @@ const GridItems: GridItemInterface[] = [
     description:
       "Our documentation dives deep into how we work, our services, and other helpful resources.",
     icon: "",
-    buttonTitle: "Learn More",
+    buttonTitle: "Learn More  ↗",
     buttonSecondaryText: "",
     buttonLink:
       "https://www.bleeckerstudios-docs.com/",
@@ -171,24 +168,24 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "Blog",
+    title: "Blog  ↗",
     image: "/linework.svg",
     equipments: [
       {
-        title: "Phase 1: Evaluate Current State",
-        link: "https://www.amazon.com/Sony-Full-frame-Mirrorless-Interchangeable-Lens-ILCE7M3K/dp/B07B45D8WV?&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=f91877e8350da1e43b161adac6e9a6d7&camp=1789&creative=9325",
+        title: "Design; The Most Imporant Piece of The Puzzle",
+        link: "",
       },
       {
-        title: "Phase 2: Solution Design",
-        link: "https://www.amazon.com/s?k=tamron+24-75+f2.8+sony+e+mount&sprefix=tamron+24-75%252Caps%252C215&ref=nb_sb_ss_ts-doa-p_1_12&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=7f90fb483df302e8131afea2f4cd89bb&camp=1789&creative=9325",
+        title: "Why You Shouldn'y Overpay For Engineering Services",
+        link: "",
       },
       {
-        title: "Phase 3: Develop + Integrate",
-        link: "https://www.amazon.com/s?k=thronmax+mdrill+one+pro&sprefix=thronmax%252Caps%252C213&ref=nb_sb_ss_ts-doa-p_7_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=ffb6dc2e55c74508300d2c5eac250e1e&camp=1789&creative=9325",
+        title: "The New Frontier of Software Development",
+        link: "",
       },
       {
-        title: "Phase 4: Deploy & Educate",
-        link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
+        title: "4 Ways To Avoid Vendor Lock-in",
+        link: "",
       },
     ],
   },
@@ -201,7 +198,7 @@ const GridItems: GridItemInterface[] = [
     icon: "discord",
     username: "@bleeckerstudios",
     buttonTitle: "View Page",
-    buttonLink: "https://twitter.com/makrdev",
+    buttonLink: "linkedin.com/company/bleeckerstudios",
     buttonSecondaryText: "",
     color: "#0077b5",
     description:
@@ -214,7 +211,7 @@ const GridItems: GridItemInterface[] = [
     icon: "youtube",
     username: "@bleeckerstudios",
     buttonTitle: "Subscribe",
-    buttonLink: "https://twitter.com/makrdev",
+    buttonLink: "https://www.youtube.com/@Bleeckerstudios",
     buttonSecondaryText: "",
     color: "#FF0000",
     description:
@@ -223,7 +220,7 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "How To Videos",
+    title: "How To Videos  ↗",
     image: "/confetti.svg",
     equipments: [
       {
@@ -232,19 +229,19 @@ const GridItems: GridItemInterface[] = [
       },
       {
         title: "Audting Your Tech Stack",
-        link: "https://www.amazon.com/s?k=tamron+24-75+f2.8+sony+e+mount&sprefix=tamron+24-75%252Caps%252C215&ref=nb_sb_ss_ts-doa-p_1_12&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=7f90fb483df302e8131afea2f4cd89bb&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Website Analytics",
-        link: "https://www.amazon.com/s?k=thronmax+mdrill+one+pro&sprefix=thronmax%252Caps%252C213&ref=nb_sb_ss_ts-doa-p_7_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=ffb6dc2e55c74508300d2c5eac250e1e&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Automating Email Responses",
-        link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
+        link: "/",
       },
       {
         title: "Automating Email Responses",
-        link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
+        link: "/",
       },
       
     ],
@@ -259,7 +256,7 @@ export const siteConfig = {
   bio: "Everyone Has Ideas, We Bring Them To Life",
   location: "New York, NY",
   locationLink:
-    "https://www.google.com/maps/place/Kad%C4%B1k%C3%B6y%2F%C4%B0stanbul/@40.981133,29.063053,12z/data=!3m1!4b1!4m6!3m5!1s0x14cac790b17ba89d:0xd2d24ea0437a7ee2!8m2!3d40.981867!4d29.0576302!16zL20vMDV5cWY4?entry=ttu",
-  email: "batuhanbilginn@gmail.com",
+    "",
+  email: "info@bleecker-studios.com",
   items: GridItems,
 } as const;
