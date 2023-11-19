@@ -18,16 +18,16 @@ const LeftPanel = () => {
             loading="eager"
             alt="avatar"
             placeholder="blur"
-            src="/pp-new3.png"
-            width={120}
-            height={120}
-            blurDataURL="/pp-new3.png"
+            src="/bleeckerlogo.svg"
+            width={80}
+            height={80}
+            blurDataURL="/bleeckerlogo.svg"
           />
         </div>
 
         {/* Text Container */}
         <div className="mt-6">
-          <div className="text-xl font-medium text-primary">
+          <div className="text-xl font-medium text-secondary">
             {siteConfig.title}
           </div>
           <h1 className="mt-2 text-4xl font-bold">{siteConfig.creator}</h1>
@@ -49,7 +49,7 @@ const LeftPanel = () => {
             className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
           >
             <Mail size="14" />
-            Contact Me
+            Contact
           </a>
         </div>
         {/* Footer */}
