@@ -39,7 +39,7 @@ const GridItems: GridItemInterface[] = [
     username: "We design, develop, and deploy technology solutions.",
     description:
       "Our Goal: Make Technology Work For You.",
-    color: "#95D66A",
+    color: "#424339",
     buttonTitle: "What We Do",
     buttonLink: "https://www.youtube.com/@makrdev",
     buttonSecondaryText: "",
@@ -80,9 +80,9 @@ const GridItems: GridItemInterface[] = [
     buttonTitle: "Our Approach",
     buttonLink: "https://twitter.com/makrdev",
     buttonSecondaryText: "",
-    color: "#1DA1F2",
+    color: "#8391A5",
     description:
-      "Our solutions solve your problems, improve operational efficiency, and optimize resource utilization.",
+      "We solve your problems, improve operational efficiency, and optimize resource utilization.",
   },
   
   {
@@ -119,13 +119,13 @@ const GridItems: GridItemInterface[] = [
     type: "social",
     title: "Click Here To Get Started",
     icon: "",
-    username: "",
+    username: "We solve your problems, improve operational efficiency, and optimize resource utilization.",
     buttonTitle: "Get Started",
-    buttonLink: "https://twitter.com/makrdev",
+    buttonLink: "https://rfy7zs3e858.typeform.com/to/N71szFJx",
     buttonSecondaryText: "",
-    color: "#D9A9D0",
+    color: "#62475D",
     description:
-      "Feel free to give us a call or email. We're open.",
+      "Looking Forward To Connecting!",
   },
   {
     layout: "2x4",
@@ -157,7 +157,7 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x2",
     type: "social",
-    title: "Check Out or Documentation",
+    title: "Check Out Our Docs",
     username: "",
     description:
       "Our documentation dives deep into how we work, our services, and other helpful resources.",
@@ -165,14 +165,14 @@ const GridItems: GridItemInterface[] = [
     buttonTitle: "Learn More",
     buttonSecondaryText: "",
     buttonLink:
-      "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
+      "https://www.bleeckerstudios-docs.com/",
   },
 
   {
     layout: "2x4",
     type: "equipment",
     title: "Blog",
-    image: "/pattern_01.svg",
+    image: "/linework.svg",
     equipments: [
       {
         title: "Phase 1: Evaluate Current State",
@@ -224,7 +224,7 @@ const GridItems: GridItemInterface[] = [
     layout: "2x4",
     type: "equipment",
     title: "How To Videos",
-    image: "/sphero.svg",
+    image: "/confetti.svg",
     equipments: [
       {
         title: "Connecting Your Software Ecosystem",
@@ -242,6 +242,11 @@ const GridItems: GridItemInterface[] = [
         title: "Automating Email Responses",
         link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
       },
+      {
+        title: "Automating Email Responses",
+        link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
+      },
+      
     ],
   },
   
