@@ -121,7 +121,7 @@ const GridItems: GridItemInterface[] = [
     icon: "",
     username: "We solve your problems, improve operational efficiency, and optimize resource utilization.",
     buttonTitle: "Get Started  ↗",
-    buttonLink: "https://www.bleeckerstudios-docs.com/",
+    buttonLink: "https://www.bleeckerstudios-docs.com/getstarted",
     buttonSecondaryText: "",
     color: "#62475D",
     description:
@@ -135,15 +135,15 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "40% Reduction in Annual Technology Costs",
-        link: "/",
+        link: "",
       },
       {
         title: "245 Hours Saved A Week Per Organization",
-        link: "/",
+        link: "",
       },
       {
         title: "20% Reduction in Touchpoints with End Clients",
-        link: "/",
+        link: "",
       },
       
     ],
@@ -168,23 +168,23 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "Blog  ↗",
+    title: "Blog  ",
     image: "/linework.svg",
     equipments: [
       {
-        title: "Design; The Most Imporant Piece of The Puzzle",
+        title: "Design; The Most Imporant Piece of The Puzzle  ↗",
         link: "",
       },
       {
-        title: "Why You Shouldn'y Overpay For Engineering Services",
+        title: "Why You Shouldn'y Overpay For Engineering Services  ↗",
         link: "",
       },
       {
-        title: "The New Frontier of Software Development",
+        title: "The New Frontier of Software Development  ↗",
         link: "",
       },
       {
-        title: "4 Ways To Avoid Vendor Lock-in",
+        title: "4 Ways To Avoid Vendor Lock-in  ↗",
         link: "",
       },
     ],
@@ -198,7 +198,7 @@ const GridItems: GridItemInterface[] = [
     icon: "discord",
     username: "@bleeckerstudios",
     buttonTitle: "View Page",
-    buttonLink: "linkedin.com/company/bleeckerstudios",
+    buttonLink: "https://www.linkedin.com/company/bleeckerstudios",
     buttonSecondaryText: "",
     color: "#0077b5",
     description:
@@ -220,29 +220,26 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "How To Videos  ↗",
-    image: "/confetti.svg",
+    title: "How To Videos",
+    image: "/fetti.svg",
     equipments: [
       {
-        title: "Connecting Your Software Ecosystem",
+        title: "Connecting Your Software Ecosystem  ↗",
         link: "",
       },
       {
-        title: "Audting Your Tech Stack",
+        title: "Audting Your Tech Stack  ↗",
         link: "/",
       },
       {
-        title: "Website Analytics",
+        title: "Website Analytics ↗",
         link: "/",
       },
       {
-        title: "Automating Email Responses",
+        title: "Automating Email Responses  ↗",
         link: "/",
       },
-      {
-        title: "Automating Email Responses",
-        link: "/",
-      },
+      
       
     ],
   },
