@@ -1,6 +1,8 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const sfPRO = localFont({
   src: [
@@ -54,6 +56,8 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col h-full">{children}</div>
         </ThemeProvider>
+        <Analytics />
+
       </body>
     </html>
   );

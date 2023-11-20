@@ -244,7 +244,7 @@ export const siteConfig = {
   bio: "Everyone Has Ideas, We Bring Them To Life",
   location: "New York, NY",
   locationLink:
-    "",
+    "https://www.google.com/search?q=bleecker+studios+google+business+page&rlz=1C5CHFA_enUS1003US1010&oq=bleecker+studios+google+business&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRirAjIHCAQQIRirAtIBCTIzNDM2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
   email: "info@bleecker-studios.com",
   items: GridItems,
 } as const;
