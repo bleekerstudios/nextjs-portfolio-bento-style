@@ -172,21 +172,14 @@ const GridItems: GridItemInterface[] = [
     image: "/linework.svg",
     equipments: [
       {
-        title: "Design; The Most Imporant Piece of The Puzzle  ↗",
-        link: "",
+        title: "Real Time Tech Support - For All Your Tech Needs ↗",
+        link: "https://www.bleeckerstudios-docs.com/articles#real-time-tech-support",
       },
       {
-        title: "Why You Shouldn'y Overpay For Engineering Services  ↗",
-        link: "",
+        title: "Integrating Systems Across Your Technology Ecosystem  ↗",
+        link: "https://www.bleeckerstudios-docs.com/articles#integrating-systems-across-your-ecosystem",
       },
-      {
-        title: "The New Frontier of Software Development  ↗",
-        link: "",
-      },
-      {
-        title: "4 Ways To Avoid Vendor Lock-in  ↗",
-        link: "",
-      },
+    
     ],
   },
  
