@@ -62,9 +62,13 @@ export default function RootLayout({
         <meta property="og:title" content="Bleecker Studios" />
         <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
         <meta property="og:image" content="/bleeckerlogo.svg"/>
-
-
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/bleeckerlogo.svg" />
         <meta name="apple-mobile-web-app-title" content="Bleecker Studios" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
 
         {/* Other meta tags and head elements */}
       </Head>
