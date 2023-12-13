@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
+import Image from "next/image";
+import BleeckerLogo from "bleeckerlogo.svg"
 
 
 
@@ -59,6 +61,8 @@ export default function RootLayout({
         <title>Bleecker Studios</title>
         <meta property="og:title" content="Bleecker Studios" />
         <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
+        <meta property="og:image" content={BleeckerLogo} />
+
 
         <meta name="apple-mobile-web-app-title" content="Bleecker Studios" />
 
