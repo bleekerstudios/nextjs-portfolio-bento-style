@@ -2,6 +2,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
+import Head from 'next/head';
+
 
 
 const sfPRO = localFont({
@@ -52,6 +54,16 @@ export default function RootLayout({
 }) {
   return (
     <html className="h-full" lang="en" suppressHydrationWarning>
+      <Head>
+        {/* Existing head elements can go here */}
+        <title>Bleecker Studios</title>
+        <meta property="og:title" content="Bleecker Studios" />
+        <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
+
+        <meta name="apple-mobile-web-app-title" content="Bleecker Studios" />
+
+        {/* Other meta tags and head elements */}
+      </Head>
       <body className={sfPRO.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col h-full">{children}</div>
