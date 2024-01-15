@@ -138,13 +138,13 @@ const GridItems: GridItemInterface[] = [
         link: "",
       },
       {
-        title: "245 Hours Saved A Week Per Organization",
+        title: "1,021 API Integrations Completed",
         link: "",
       },
       {
-        title: "20% Reduction in Touchpoints with End Clients",
+        title: "245 Hours Saved A Week Per Organization",
         link: "",
-      },
+      }
       
     ],
   },
@@ -175,10 +175,7 @@ const GridItems: GridItemInterface[] = [
         title: "Real Time Tech Support - For All Your Tech Needs ↗",
         link: "https://www.bleeckerstudios-docs.com/articles#real-time-tech-support",
       },
-      {
-        title: "Integrating Systems Across Your Technology Ecosystem  ↗",
-        link: "https://www.bleeckerstudios-docs.com/articles#integrating-systems-across-your-ecosystem",
-      },
+      
     
     ],
   },
