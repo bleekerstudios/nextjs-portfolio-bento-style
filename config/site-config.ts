@@ -172,7 +172,7 @@ const GridItems: GridItemInterface[] = [
     image: "/linework.svg",
     equipments: [
       {
-        title: "Real Time Tech Support - For All Your Tech Needs ↗",
+        title: "Real-Time Tech Support ↗",
         link: "https://www.bleeckerstudios-docs.com/articles#real-time-tech-support",
       },
       
