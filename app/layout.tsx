@@ -72,7 +72,7 @@ export default function RootLayout({
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Bleecker Studios" />
   <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
-  <meta property="og:image" content="https://www.bleecker-studios.com/" />
+  <meta property="og:image" content="https://www.bleecker-studios.com/iphoneLogo.png" />
 
 
 
