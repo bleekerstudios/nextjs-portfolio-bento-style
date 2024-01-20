@@ -60,21 +60,22 @@ export default function RootLayout({
       <Head>
         {/* Existing head elements can go here */}
         <head>
-        <title>Bleecker Studios</title>
-        <meta property="og:title" content="Bleecker Studios" />
-        <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="https://www.bleecker-studios.com/iphoneLogo.png" />
-        <meta name="apple-mobile-web-app-title" content="Bleecker Studios" />
-        <meta name="apple-mobile-web-app-capable" content="https://www.bleecker-studios.com/iphoneLogo.png" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="https://www.bleecker-studios.com/iphoneLogo.png" />
+<title>Bleecker Studios</title>
+<meta name="title" content="Bleecker Studios" />
+<meta name="description" content="Everyone Has Ideas, We Bring Them To Life" />
 
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://metatags.io/" />
+<meta property="og:title" content="Bleecker Studios" />
+<meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life" />
+<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
 
-        <meta property="og:url" content="https://www.bleecker-studios.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Bleecker Studios" />
-  <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
-  <meta property="og:image" content="https://www.bleecker-studios.com/iphoneLogo.png" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://metatags.io/" />
+<meta property="twitter:title" content="Bleecker Studios" />
+<meta property="twitter:description" content="Everyone Has Ideas, We Bring Them To Life" />
+<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
 
       </head>
 
