@@ -58,14 +58,15 @@ export default function RootLayout({
     <html className="h-full" lang="en" suppressHydrationWarning>
       <Head>
         {/* Existing head elements can go here */}
+        <head>
         <title>Bleecker Studios</title>
         <meta property="og:title" content="Bleecker Studios" />
         <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="https://www.bleecker-studios.com/iphoneLogo.png" />
         <meta name="apple-mobile-web-app-title" content="Bleecker Studios" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-capable" content="https://www.bleecker-studios.com/iphoneLogo.png" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="https://www.bleecker-studios.com/iphoneLogo.png" />
 
 
         <meta property="og:url" content="https://www.bleecker-studios.com" />
@@ -74,7 +75,7 @@ export default function RootLayout({
   <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
   <meta property="og:image" content="https://www.bleecker-studios.com/iphoneLogo.png" />
 
-
+      </head>
 
         {/* Other meta tags and head elements */}
       </Head>
