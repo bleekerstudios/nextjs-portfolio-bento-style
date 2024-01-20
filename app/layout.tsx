@@ -47,6 +47,7 @@ const sfPRO = localFont({
 export const metadata = {
   title: "Bleecker Studios",
   description: "",
+  ogimage: "https://www.bleecker-studios.com/iphoneLogo.png"
 };
 
 export default function RootLayout({
