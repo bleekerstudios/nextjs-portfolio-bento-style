@@ -62,7 +62,7 @@ export default function RootLayout({
         <meta property="og:title" content="Bleecker Studios" />
         <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life." />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/iphoneLogo.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://www.bleecker-studios.com/iphoneLogo.png" />
         <meta name="apple-mobile-web-app-title" content="Bleecker Studios" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
