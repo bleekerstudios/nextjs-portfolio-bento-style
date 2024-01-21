@@ -59,7 +59,6 @@ export default function RootLayout({
     <html className="h-full" lang="en" suppressHydrationWarning>
       <Head>
         {/* Existing head elements can go here */}
-        <head>
 <title>Bleecker Studios</title>
 <meta name="title" content="Bleecker Studios" />
 <meta name="description" content="Everyone Has Ideas, We Bring Them To Life" />
@@ -77,7 +76,6 @@ export default function RootLayout({
 <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
 
-      </head>
 
         {/* Other meta tags and head elements */}
       </Head>
