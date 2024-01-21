@@ -67,7 +67,7 @@ export default function RootLayout({
 <meta property="og:url" content="https://metatags.io/" />
 <meta property="og:title" content="Bleecker Studios" />
 <meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life" />
-<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+<meta property="og:image" content={metadata.ogimage} />
 
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://metatags.io/" />
