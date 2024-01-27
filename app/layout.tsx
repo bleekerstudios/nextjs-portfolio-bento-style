@@ -47,8 +47,15 @@ const sfPRO = localFont({
 export const metadata = {
   title: "Bleecker Studios",
   description: "",
-  ogimage: "https://www.bleecker-studios.com/iphoneLogo.png"
-};
+  openGraph: {
+    image: {
+      url: '"https://www.bleecker-studios.com/iphoneLogo.png"', // Replace with your image URL
+      width: 800,  // Optional: Specify the width of the image
+      height: 600, // Optional: Specify the height of the image
+      alt: 'Description of the image', // Optional: Provide an alt description for the image
+    },
+},
+}
 
 export default function RootLayout({
   children,
@@ -63,18 +70,18 @@ export default function RootLayout({
 <meta name="title" content="Bleecker Studios" />
 <meta name="description" content="Everyone Has Ideas, We Bring Them To Life" />
 
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://metatags.io/" />
-<meta property="og:title" content="Bleecker Studios" />
-<meta property="og:description" content="Everyone Has Ideas, We Bring Them To Life" />
-<meta property="og:image" content={metadata.ogimage} />
-
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://metatags.io/" />
-<meta property="twitter:title" content="Bleecker Studios" />
-<meta property="twitter:description" content="Everyone Has Ideas, We Bring Them To Life" />
-<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
-
+<title>{metadata.title}</title>
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:image" content={metadata.openGraph.image.url} />
+        {metadata.openGraph.image.width && (
+          <meta property="og:image:width" content={metadata.openGraph.image.width.toString()} />
+        )}
+        {metadata.openGraph.image.height && (
+          <meta property="og:image:height" content={metadata.openGraph.image.height.toString()} />
+        )}
+        {metadata.openGraph.image.alt && (
+          <meta property="og:image:alt" content={metadata.openGraph.image.alt} />
+        )}
 
 
         {/* Other meta tags and head elements */}
