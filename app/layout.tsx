@@ -51,8 +51,8 @@ export const metadata = {
   openGraph: {
     image: {
       url: 'https://www.bleecker-studios.com/opengraph-image.png', // Replace with your image URL
-      width: 800,  // Optional: Specify the width of the image
-      height: 600, // Optional: Specify the height of the image
+      width: 630,  // Optional: Specify the width of the image
+      height: 630, // Optional: Specify the height of the image
       alt: 'Description of the image', // Optional: Provide an alt description for the image
     },
 },
