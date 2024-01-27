@@ -50,7 +50,7 @@ export const metadata = {
   title: "Bleecker Studios",
   openGraph: {
     image: {
-      url: 'https://www.bleecker-studios.com/iphoneLogo.png', // Replace with your image URL
+      url: 'https://www.bleecker-studios.com/opengraph-image.png', // Replace with your image URL
       width: 800,  // Optional: Specify the width of the image
       height: 600, // Optional: Specify the height of the image
       alt: 'Description of the image', // Optional: Provide an alt description for the image
@@ -83,7 +83,26 @@ export default function RootLayout({
           <meta property="og:image:alt" content={metadata.openGraph.image.alt} />
         )}
 
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.bleecker-studios.com/iphoneLogo.png" />
+<meta property="og:image" content="https://www.bleecker-studios.com/opengraph-image.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+
+<link
+  rel="icon"
+  href="/icon.png"
+  type="image/png"
+  sizes="16x16"
+/>
+
+<link
+  rel="apple-touch-icon"
+  href="/apple-icon.png"
+  type="image/png"
+  sizes="16x16"
+/>
+
 
 
 
