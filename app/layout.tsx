@@ -82,6 +82,9 @@ export default function RootLayout({
           <meta property="og:image:alt" content={metadata.openGraph.image.alt} />
         )}
 
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.bleecker-studios.com/favicon.ico" />
+
+
 
         {/* Other meta tags and head elements */}
       </Head>
