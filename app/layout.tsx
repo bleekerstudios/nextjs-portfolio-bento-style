@@ -1,5 +1,7 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import localFont from "next/font/local";
+import type { Metadata } from 'next'
+
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
@@ -46,7 +48,6 @@ const sfPRO = localFont({
 
 export const metadata = {
   title: "Bleecker Studios",
-  description: "",
   openGraph: {
     image: {
       url: 'https://www.bleecker-studios.com/iphoneLogo.png', // Replace with your image URL
