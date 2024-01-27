@@ -85,22 +85,22 @@ export default function RootLayout({
 
 <meta property="og:image" content="https://www.bleecker-studios.com/opengraph-image.png" />
 <meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="" />
-<meta property="og:image:height" content="" />
+<meta property="og:image:width" content="630" />
+<meta property="og:image:height" content="630" />
 
 
 <link
   rel="icon"
   href="/icon.png"
   type="image/png"
-  sizes=""
+  sizes="16x16"
 />
 
 <link
   rel="apple-touch-icon"
   href="/apple-icon.png"
   type="image/png"
-  sizes=""
+  sizes="16x16"
 />
 
 
