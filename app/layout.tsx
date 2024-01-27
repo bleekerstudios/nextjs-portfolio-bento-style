@@ -71,7 +71,6 @@ export default function RootLayout({
 <meta name="description" content="Everyone Has Ideas, We Bring Them To Life" />
 
 <title>{metadata.title}</title>
-        <meta property="og:title" content={metadata.openGraph.title} />
         <meta property="og:image" content={metadata.openGraph.image.url} />
         {metadata.openGraph.image.width && (
           <meta property="og:image:width" content={metadata.openGraph.image.width.toString()} />
