@@ -92,7 +92,7 @@ export default function RootLayout({
 
 <link
   rel="icon"
-  href="/icon.png"
+  href="/icon11.png"
   type="image/png"
   sizes="10x10"
 />
