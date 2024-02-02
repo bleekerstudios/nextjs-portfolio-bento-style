@@ -172,8 +172,20 @@ const GridItems: GridItemInterface[] = [
     image: "/linework.svg",
     equipments: [
       {
-        title: "Real-Time Tech Support ↗",
+        title: "Automate This, Automate That ↗",
+        link: "https://www.bleeckerstudios-docs.com/articles#automate-this-automate-that",
+      },
+      {
+        title: "Real Time Tech Support ↗",
         link: "https://www.bleeckerstudios-docs.com/articles#real-time-tech-support",
+      },
+      {
+        title: "Breaking Down Barriers ↗",
+        link: "https://www.bleeckerstudios-docs.com/articles#breaking-down-barriers",
+      },
+      {
+        title: "Client Spotlight: E&L Flooring Services ↗",
+        link: "https://www.bleeckerstudios-docs.com/articles#client-spotlight-el-flooring-services",
       },
       
     
