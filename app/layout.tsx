@@ -6,7 +6,9 @@ import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
 import Image from "next/image";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google'
+
+
 
 
 
@@ -69,9 +71,9 @@ export default function RootLayout({
   return (
     <html className="h-full" lang="en" suppressHydrationWarning>
       <Head>
-      <GoogleAnalytics gaId="G-83KQXHGJML" />
+      <GoogleTagManager gtmId="GTM-MXLDKSPP" />
 
-
+    
       
       <title>Bleecker Studios</title>
 <meta name="title" content="Bleecker Studios" />
@@ -115,6 +117,8 @@ export default function RootLayout({
 
 
       </Head>
+
+
       <body className={sfPRO.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col h-full">{children}</div>
