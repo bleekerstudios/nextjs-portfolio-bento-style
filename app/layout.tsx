@@ -6,16 +6,19 @@ import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
 import Image from "next/image";
-import { useEffect } from 'react';
+import Script from 'next/script';
 
  
-const Layout = ({ children }) => {
+function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    // Dynamically execute the Google Analytics initialization script
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-83KQXHGJML');
+    // Check if window is available
+    if (typeof window !== 'undefined') {
+      // Initialize Google Analytics 4
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-83KQXHGJML');
+    }
   }, []);
 
 
@@ -77,15 +80,13 @@ export default function RootLayout({
   return (
     <html className="h-full" lang="en" suppressHydrationWarning>
       <Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-83KQXHGJML"></script>
-      <div>
-        {/* Your layout content */}
-        {children}
-      </div>
 
-
-        {/* Existing head elements can go here */}
-<title>Bleecker Studios</title>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-83KQXHGJML"
+        strategy="afterInteractive"
+      />
+      <Component {...pageProps} />
+      <title>Bleecker Studios</title>
 <meta name="title" content="Bleecker Studios" />
 <meta name="description" content="Everyone Has Ideas, We Bring Them To Life" />
 
