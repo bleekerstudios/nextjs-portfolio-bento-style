@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
 import Image from "next/image";
 import { GoogleTagManager } from '@next/third-parties/google'
+import Script from 'next/script'
 
 
 
@@ -116,10 +117,27 @@ export default function RootLayout({
 
 
 
+
       </Head>
 
 
       <body className={sfPRO.className}>
+
+      <Script
+  strategy="lazyOnload"
+  src="https://www.googletagmanager.com/gtag/js?id=G-83KQXHGJML"/>
+
+<Script id="ga-script" strategy="lazyOnload">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-83KQXHGJML', {
+      page_path: window.location.pathname,
+    });
+        `}
+</Script>
+
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col h-full">{children}</div>
         </ThemeProvider>
