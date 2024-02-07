@@ -6,7 +6,18 @@ import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
 import Image from "next/image";
+import { useEffect } from 'react';
+
  
+const Layout = ({ children }) => {
+  useEffect(() => {
+    // Dynamically execute the Google Analytics initialization script
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-83KQXHGJML');
+  }, []);
+
 
 
 
@@ -66,15 +77,13 @@ export default function RootLayout({
   return (
     <html className="h-full" lang="en" suppressHydrationWarning>
       <Head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-83KQXHGJML"></script>
+      <div>
+        {/* Your layout content */}
+        {children}
+      </div>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-83KQXHGJML"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-83KQXHGJML');
-</script>
         {/* Existing head elements can go here */}
 <title>Bleecker Studios</title>
 <meta name="title" content="Bleecker Studios" />
