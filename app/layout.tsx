@@ -66,6 +66,15 @@ export default function RootLayout({
   return (
     <html className="h-full" lang="en" suppressHydrationWarning>
       <Head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-83KQXHGJML"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-83KQXHGJML');
+</script>
         {/* Existing head elements can go here */}
 <title>Bleecker Studios</title>
 <meta name="title" content="Bleecker Studios" />
