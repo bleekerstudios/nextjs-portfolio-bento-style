@@ -6,20 +6,9 @@ import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head';
 import Image from "next/image";
-import Script from 'next/script';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
- 
-function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    // Check if window is available
-    if (typeof window !== 'undefined') {
-      // Initialize Google Analytics 4
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'G-83KQXHGJML');
-    }
-  }, []);
+
 
 
 
@@ -80,12 +69,10 @@ export default function RootLayout({
   return (
     <html className="h-full" lang="en" suppressHydrationWarning>
       <Head>
+      <GoogleAnalytics gaId="G-83KQXHGJML" />
 
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-83KQXHGJML"
-        strategy="afterInteractive"
-      />
-      <Component {...pageProps} />
+
+      
       <title>Bleecker Studios</title>
 <meta name="title" content="Bleecker Studios" />
 <meta name="description" content="Everyone Has Ideas, We Bring Them To Life" />
@@ -127,8 +114,6 @@ export default function RootLayout({
 
 
 
-
-        {/* Other meta tags and head elements */}
       </Head>
       <body className={sfPRO.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
