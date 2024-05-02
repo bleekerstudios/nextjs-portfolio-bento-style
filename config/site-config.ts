@@ -172,6 +172,11 @@ const GridItems: GridItemInterface[] = [
     image: "/linework.svg",
     equipments: [
       {
+        title: "Customer Stories ↗",
+        link: "https://www.bleeckerstudios-docs.com/customerStories",
+      },
+      
+      {
         title: "Automate This, Automate That ↗",
         link: "https://www.bleeckerstudios-docs.com/articles#automate-this-automate-that",
       },
@@ -183,10 +188,7 @@ const GridItems: GridItemInterface[] = [
         title: "Breaking Down Barriers ↗",
         link: "https://www.bleeckerstudios-docs.com/articles#breaking-down-barriers",
       },
-      {
-        title: "Client Spotlight: E&L Flooring Services ↗",
-        link: "https://www.bleeckerstudios-docs.com/articles#client-spotlight-el-flooring-services",
-      },
+      
       
     
     ],
