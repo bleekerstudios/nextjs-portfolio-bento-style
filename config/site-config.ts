@@ -92,11 +92,7 @@ const GridItems: GridItemInterface[] = [
     image: "/pattern_04.svg",
     equipments: [
       {
-        title: "Application Customization & Integrations",
-        link: "/",
-      },
-      {
-        title: "Promotional Services",
+        title: "Integrations",
         link: "/",
       },
       {
@@ -104,11 +100,15 @@ const GridItems: GridItemInterface[] = [
         link: "/",
       },
       {
+        title: "Film & Design",
+        link: "/",
+      },
+      {
         title: "Business Development",
         link: "/",
       },
       {
-        title: "Professional Services & Technical Support",
+        title: "Technical Support",
         link: "/",
       },
       
