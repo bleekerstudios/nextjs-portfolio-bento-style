@@ -211,6 +211,21 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
+    title: "Blog  ",
+    image: "/logolock.svg",
+    equipments: [
+      {
+        title: "Certifications, Partnerships, & Technology",
+        link: "",
+      }
+      
+      
+    
+    ],
+  },
+  {
+    layout: "2x4",
+    type: "equipment",
     title: "About",
     image: "/vortex.svg",
     equipments: [
