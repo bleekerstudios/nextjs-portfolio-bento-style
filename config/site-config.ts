@@ -92,7 +92,7 @@ const GridItems: GridItemInterface[] = [
     image: "/pattern_04.svg",
     equipments: [
       {
-        title: "Application Customizations & Integrations",
+        title: "Integrations",
         link: "/",
       },
       {
@@ -100,7 +100,7 @@ const GridItems: GridItemInterface[] = [
         link: "/",
       },
       {
-        title: "Promotional Services",
+        title: "Film & Design",
         link: "/",
       },
       {
@@ -108,7 +108,7 @@ const GridItems: GridItemInterface[] = [
         link: "/",
       },
       {
-        title: "Professional Services & Technical Support",
+        title: "Technical Support",
         link: "/",
       },
       
@@ -121,7 +121,7 @@ const GridItems: GridItemInterface[] = [
     icon: "",
     username: "We solve your problems, improve operational efficiency, and optimize resource utilization.",
     buttonTitle: "Get Started  ↗",
-    buttonLink: "https://www.bleeckerstudios-docs.com/getstarted",
+    buttonLink: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
     buttonSecondaryText: "",
     color: "#62475D",
     description:
@@ -162,7 +162,7 @@ const GridItems: GridItemInterface[] = [
     buttonTitle: "Learn More  ↗",
     buttonSecondaryText: "",
     buttonLink:
-      "https://www.bleeckerstudios-docs.com/",
+      "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
   },
 
   {
@@ -173,20 +173,12 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Customer Stories ↗",
-        link: "https://www.bleeckerstudios-docs.com/customerStories",
+        link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
       },
       
       {
-        title: "Automate This, Automate That ↗",
-        link: "https://www.bleeckerstudios-docs.com/articles#automate-this-automate-that",
-      },
-      {
-        title: "Real Time Tech Support ↗",
-        link: "https://www.bleeckerstudios-docs.com/articles#real-time-tech-support",
-      },
-      {
-        title: "Breaking Down Barriers ↗",
-        link: "https://www.bleeckerstudios-docs.com/articles#breaking-down-barriers",
+        title: "Substack ↗",
+        link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
       },
       
       
