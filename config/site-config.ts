@@ -174,12 +174,7 @@ const GridItems: GridItemInterface[] = [
       {
         title: "Customer Stories ↗",
         link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
-      },
-      
-      {
-        title: "Substack ↗",
-        link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
-      },
+      }
       
       
     
