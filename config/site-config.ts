@@ -211,11 +211,11 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "Blog  ",
-    image: "/ruptp2.svg",
+    title: "Certifications, Partnerships, & Technology",
+    image: "/timesaver.svg",
     equipments: [
       {
-        title: "Certifications, Partnerships, & Technology",
+        title: "Learn More ↗",
         link: "",
       }
       
