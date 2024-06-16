@@ -212,7 +212,7 @@ const GridItems: GridItemInterface[] = [
     layout: "2x4",
     type: "equipment",
     title: "Certifications, Partnerships, & Technology",
-    image: "/timesaver.svg",
+    image: "/logofinal.svg",
     equipments: [
       {
         title: "Learn More ↗",
