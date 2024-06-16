@@ -167,12 +167,12 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "Certifications, Partnerships, & Technology",
+    title: "Certifications, Partnerships, & Technologies",
     image: "/logofinal.svg",
     equipments: [
       {
         title: "Learn More ↗",
-        link: "",
+        link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
       }
       
       
