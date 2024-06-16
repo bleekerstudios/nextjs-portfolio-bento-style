@@ -159,28 +159,28 @@ const GridItems: GridItemInterface[] = [
     description:
       "Our documentation dives deep into how we work, our services, and other helpful resources.",
     icon: "",
-    buttonTitle: "Learn More  ↗",
+    buttonTitle: "Explore Resources  ↗",
     buttonSecondaryText: "",
     buttonLink:
       "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
   },
-
   {
     layout: "2x4",
     type: "equipment",
-    title: "Blog  ",
-    image: "/linework.svg",
+    title: "Certifications, Partnerships, & Technology",
+    image: "/logofinal.svg",
     equipments: [
       {
-        title: "Customer Stories ↗",
-        link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
+        title: "Learn More ↗",
+        link: "",
       }
       
       
     
     ],
   },
- 
+
+
   
   {
     layout: "1x2",
@@ -211,12 +211,12 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "Certifications, Partnerships, & Technology",
-    image: "/logofinal.svg",
+    title: "Blog  ",
+    image: "/linework.svg",
     equipments: [
       {
-        title: "Learn More ↗",
-        link: "",
+        title: "Customer Stories ↗",
+        link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
       }
       
       
