@@ -121,7 +121,7 @@ const GridItems: GridItemInterface[] = [
     icon: "",
     username: "We solve your problems, improve operational efficiency, and optimize resource utilization.",
     buttonTitle: "Get Started  ↗",
-    buttonLink: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
+    buttonLink: "https://bleeckerstudios.typeform.com/to/aQerVtuw",
     buttonSecondaryText: "",
     color: "#62475D",
     description:
@@ -162,7 +162,7 @@ const GridItems: GridItemInterface[] = [
     buttonTitle: "Explore Resources  ↗",
     buttonSecondaryText: "",
     buttonLink:
-      "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
+      "https://bleeckerstudios.typeform.com/to/MAs1GaCR",
   },
   {
     layout: "2x4",
@@ -216,7 +216,7 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Customer Stories ↗",
-        link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
+        link: "https://bleeckerstudios.typeform.com/to/KYu0AC3z",
       }
       
       
