@@ -68,6 +68,10 @@ const GridItems: GridItemInterface[] = [
         title: "Phase 4: Deploy & Educate",
         link: "/",
       },
+      {
+        title: "Schedule A Meeting ↗",
+        link: "https://calendly.com/bleeckerstudios/intro-meeting",
+      },
     ],
   },
 
@@ -110,7 +114,7 @@ const GridItems: GridItemInterface[] = [
       {
         title: "Technical Support",
         link: "/",
-      },
+      }
       
     ],
   },
@@ -157,7 +161,7 @@ const GridItems: GridItemInterface[] = [
     title: "Check Out Our Docs",
     username: "",
     description:
-      "Our documentation dives deep into how we work, our services, and other helpful resources.",
+      "Our documentation dives deep into how we work, our services, and our impact.",
     icon: "",
     buttonTitle: "Explore Resources  ↗",
     buttonSecondaryText: "",
@@ -211,13 +215,17 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "Blog  ",
+    title: "Resources  ",
     image: "/linework.svg",
     equipments: [
       {
         title: "Customer Stories ↗",
         link: "https://bleeckerstudios.typeform.com/to/KYu0AC3z",
-      }
+      },
+      {
+        title: "Schedule A Meeting ↗",
+        link: "https://calendly.com/bleeckerstudios/intro-meeting",
+      },
       
       
     
