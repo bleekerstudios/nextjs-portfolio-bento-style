@@ -45,7 +45,7 @@ const LeftPanel = () => {
             {siteConfig.location}
           </a>
           <a
-            href={`mailto:${siteConfig.email}`}
+            href={`https://formless.ai/c/WbyW14zZNbcj`}
             className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
           >
             <Mail size="14" />
