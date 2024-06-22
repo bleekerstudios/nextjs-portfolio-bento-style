@@ -172,7 +172,7 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Learn More ↗",
-        link: "https://bleeckerstudios.retool.com/form/6b525eec-ad3a-41b7-aaad-ea0373b68570",
+        link: "https://bleeckerstudios.typeform.com/to/l5E0RDWr",
       }
       
       
