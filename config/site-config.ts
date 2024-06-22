@@ -176,7 +176,7 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Learn More ↗",
-        link: "https://bleeckerstudios.typeform.com/to/l5E0RDWr",
+        link: "https://formless.ai/c/UAhmmDM9Nhx4",
       }
       
       
@@ -220,7 +220,7 @@ const GridItems: GridItemInterface[] = [
     equipments: [
       {
         title: "Customer Stories ↗",
-        link: "https://bleeckerstudios.typeform.com/to/KYu0AC3z",
+        link: "https://formless.ai/c/BBbpc9PI1ZjI",
       },
       {
         title: "Schedule A Meeting ↗",
