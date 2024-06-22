@@ -1,6 +1,6 @@
 "use client";
 import { siteConfig } from "@/config/site-config";
-import { Mail, MapPin } from "lucide-react";
+import { Flag, MapPin } from "lucide-react";
 import Image from "next/image";
 import Footer from "./footer";
 
@@ -45,10 +45,10 @@ const LeftPanel = () => {
             {siteConfig.location}
           </a>
           <a
-            href={`https://formless.ai/c/WbyW14zZNbcj`}
+            href={`https://formless.ai/c/RUyNpmduAuvM`}
             className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
           >
-            <Mail size="14" />
+            <Flag size="14" />
             Get Started ↗
           </a>
         </div>
