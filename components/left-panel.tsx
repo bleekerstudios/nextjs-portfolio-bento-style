@@ -49,7 +49,7 @@ const LeftPanel = () => {
             className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
           >
             <Mail size="14" />
-            Contact
+            Get Started ↗
           </a>
         </div>
         {/* Footer */}

@@ -125,7 +125,7 @@ const GridItems: GridItemInterface[] = [
     icon: "",
     username: "We solve your problems, improve operational efficiency, and optimize resource utilization.",
     buttonTitle: "Get Started  ↗",
-    buttonLink: "https://bleeckerstudios.typeform.com/to/aQerVtuw",
+    buttonLink: "https://formless.ai/c/RUyNpmduAuvM",
     buttonSecondaryText: "",
     color: "#62475D",
     description:
@@ -166,7 +166,7 @@ const GridItems: GridItemInterface[] = [
     buttonTitle: "Explore Resources  ↗",
     buttonSecondaryText: "",
     buttonLink:
-      "https://bleeckerstudios.typeform.com/to/MAs1GaCR",
+      "https://formless.ai/c/WbyW14zZNbcj",
   },
   {
     layout: "2x4",
@@ -259,6 +259,6 @@ export const siteConfig = {
   location: "New York, NY",
   locationLink:
     "https://www.google.com/search?q=bleecker+studios+google+business+page&rlz=1C5CHFA_enUS1003US1010&oq=bleecker+studios+google+business&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRirAjIHCAQQIRirAtIBCTIzNDM2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
-  email: "info@bleecker-studios.com",
+  email: "https://formless.ai/c/RUyNpmduAuvM",
   items: GridItems,
 } as const;
