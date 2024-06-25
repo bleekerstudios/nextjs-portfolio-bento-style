@@ -226,6 +226,11 @@ const GridItems: GridItemInterface[] = [
         title: "Schedule A Meeting ↗",
         link: "https://calendly.com/bleeckerstudios/intro-meeting",
       },
+      {
+        title: "Instagram ↗",
+        link: "https://www.instagram.com/",
+      },
+
       
       
     
